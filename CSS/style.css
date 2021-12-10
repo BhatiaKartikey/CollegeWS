@@ -1,0 +1,72 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+a:hover
+{
+    color: #740e1a;
+    font-weight: bold ;
+    transition: 1s;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+
+}
+.header
+{
+    background-color: #3f0a10;
+    min-height: 35vh;
+    width: 100%;
+}
+.College-Name
+{
+    font-size: 32px;
+    font-weight: 600;
+    width: 80%;
+    float: right;
+    text-align: center;
+    margin-top: 75px;
+    display: inline-block;
+    color: white;
+}
+.logo
+{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 10%;
+    display: inline-block;
+    border-radius: 100%;
+}
+.Quick-Links
+{
+    background-color: #f4f1de;
+    display: inline-block;
+    height: 450px;
+    width: 25%;
+    
+}
+.Quick-Links ul li
+{
+    list-style: none;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    
+}
+.Display
+{
+    background-color: white;
+    height: 450px;
+    width: 75%;
+    display: inline-block;
+    float: right;
+}
+.Display iframe
+{
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+}

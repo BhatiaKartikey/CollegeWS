@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback Form</title>
+    <style>
+        *{
+            padding: 0;margin: 20px;
+        }
+        input,textarea{
+            background: transparent;
+        }
+        textarea{
+            border: none;
+            border-bottom: 2px solid black;
+            resize: none;
+        }
+        label{
+            font-weight: 600;
+            font-size: 30px;
+            
+        }
+        input[type="text"]{
+            border: none;
+            border-bottom:2px solid black;
+            margin-left: 2px;
+
+        }
+        .opt{
+            font-size: 20px;
+        }
+        input[type=radio]{
+         margin-left: 10px;
+       }
+    form{
+        background-color: #f4f1de;
+    }
+    input[type=button]{
+        padding: 7px;
+        font-weight: 500;
+        font-size: 20px;
+        background: rgba(20, 20, 20,1);
+        color: white;    }
+    input[type=button]:hover{
+        padding: 7px;
+        font-weight: 500;
+        font-size: 20px;
+        background: rgba(255, 255, 255,1);
+        color: black;
+        border: 2px solid #3f0a10;
+        transition: .5s;
+    }
+    input[type=checkbox]{
+        margin-left:2px;
+        width: 20px;
+        
+    }
+    </style>
+</head>
+<body>
+    <!-- radio buttons, -->
+<!-- checkboxes, text area, text box and button -->
+    <div class="contain">
+        <form action="Contact-Details.html" method="get">
+            <label>Name</label>
+            <input type="text"> <br> <br>
+            <label>How do you rate your overall experience? </label> <br>
+            <label class="opt">Bad</label> <input type="radio" name="options"> <label class="opt">Good</label><input type="radio" name="options"> <br> <br>
+            <label>In which departments are you interested in? </label> <br>
+            <label class="opt">BA Programme</label><input type="checkbox"><br> <br>
+            <label class="opt">Journalism</label><input type="checkbox"><br> <br>
+            <label class="opt">Commerce</label><input type="checkbox"><br> <br> <br>
+            <label class="opt">Computer Science</label><input type="checkbox"><br> <br>
+            <label>Feedback</label><br>
+            <textarea  cols="30" rows="10"></textarea> <br> <br>
+            <input type="button" value="submit">  
+
+        </form>
+    </div>
+</body>
+</html>
